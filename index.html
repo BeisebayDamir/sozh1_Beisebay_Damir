@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <!-- 1. Кодтау: қазақ әріптері (ә, ғ, қ, ң, ө, ұ, ү, һ, і) дұрыс көрінуі үшін -->
+  <meta charset="UTF-8">
+  <!-- 2. Мобильді құрылғыда бет енін экранға бейімдейді -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- 3. Бет атауы (браузер табы мен іздеу жүйесі) -->
+  <title>Менің сандық визиткам — Ақпараттық қауіпсіздік студенті</title>
+  <!-- 4. Іздеу жүйесіне арналған қысқаша сипаттама -->
+  <meta name="description" content="ҚазҰТЗУ-дың Ақпараттық қауіпсіздік мамандығы студентінің бір беттік сандық визиткасы: дағдылары, жобалары және сабақ кестесі.">
+  <!-- 5. Кілт сөздер -->
+  <meta name="keywords" content="визитка, портфолио, ақпараттық қауіпсіздік, HTML5, ҚазҰТЗУ, студент">
+  <!-- 6. Автор -->
+  <meta name="author" content="Бейсебай Дамир">
+  <!-- 7. Қосымша: браузер жолағының түсі -->
+  <meta name="theme-color" content="#0b3c49">
+  <!-- 8. Favicon -->
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+  <!-- Open Graph: сілтеме әлеуметтік желіде (Telegram, Facebook, LinkedIn) қалай көрінетінін анықтайды -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="kk_KZ">
+  <meta property="og:title" content="Менің сандық визиткам">
+  <meta property="og:description" content="Ақпараттық қауіпсіздік студентінің бір беттік визиткасы: дағдылар, жобалар, сабақ кестесі.">
+  <meta property="og:image" content="https://USERNAME.github.io/sozh1_tegi_aty/img/og-image.png">
+  <meta property="og:image:alt" content="Менің сандық визиткам — тақырыптық баннер">
+  <meta property="og:url" content="https://USERNAME.github.io/sozh1_tegi_aty/">
+
+  <style>
+    /* Бетке жеңіл безендіру (СӨЖ №2-де осы стильдер 3 әдіспен қайта жазылады) */
+    :root { --dark:#0b3c49; --accent:#009688; --light:#e6f4f2; }
+    body { font-family: system-ui, "Segoe UI", Arial, sans-serif; margin: 0; color: #1c2b30; line-height: 1.6; background: #f7fbfb; }
+    header, main, footer { max-width: 860px; margin: 0 auto; padding: 1rem 1.25rem; }
+    header { background: var(--dark); color: #fff; max-width: none; text-align: center; padding: 2rem 1rem; }
+    header img { border-radius: 50%; border: 4px solid var(--accent); }
+    h2 { color: var(--dark); border-bottom: 3px solid var(--accent); padding-bottom: .25rem; }
+    a { color: var(--accent); }
+    a:hover { color: var(--dark); }
+    table { border-collapse: collapse; width: 100%; background: #fff; }
+    caption { font-weight: 600; text-align: left; padding: .5rem 0; }
+    th, td { border: 1px solid #b9d3d0; padding: .5rem .75rem; text-align: left; }
+    th { background: var(--light); }
+    footer { text-align: center; font-size: .9rem; color: #5b6b70; }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Satbayev_University.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled" alt="Студенттің аватары: Т.А. инициалдары бар дөңгелек сурет" width="160" height="160">
+    <h1>Бейсебай Дамир</h1>
+    <p>Ақпараттық қауіпсіздік мамандығы · Қ.И. Сәтбаев атындағы ҚазҰТЗУ · 2 курс</p>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>Мен туралы</h2>
+      <p>Сәлем! Мен «6B06301 Ақпараттық қауіпсіздік» білім беру бағдарламасының 2 курс студентімін. Желі қауіпсіздігі мен веб-технологияларға қызығамын және қауіпсіз веб-қосымшалар жасауды үйреніп жатырмын.</p>
+      <p>Мақсатым — бітіргеннен кейін киберқауіпсіздік саласында маман болу.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Дағдыларым</h2>
+      <ul>
+        <li>HTML5 және семантикалық белгілеу</li>
+        <li>CSS негіздері</li>
+        <li>Git және GitHub</li>
+      </ul>
+
+      <h3>Үйреніп жатқан бағыттарым</h3>
+      <ol>
+        <li>JavaScript</li>
+        <li>С++</li>
+      </ol>
+    </section>
+
+    <section id="schedule">
+      <h2>Сабақ кестесі</h2>
+      <table>
+        <caption>Апталық сабақ кестесі (үлгі)</caption>
+        <thead>
+          <tr>
+            <th scope="col">Күн</th>
+            <th scope="col">Уақыты</th>
+            <th scope="col">Пән</th>
+            <th scope="col">Түрі</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Дүйсенбі</td><td>12:10–13:00</td><td>Модуль политических знаний</td><td>Практика</td></tr>
+          <tr><td>Сейсенбі</td><td>07:50–08:40</td><td>Основы экономики и предпринимательства</td><td>Лекция</td></tr>
+          <tr><td>Сәрсенбі</td><td>12:10–13:00</td><td>Введение в WEB</td><td>Практика</td></tr>
+          <tr><td>Бейсенбі</td><td>14:20–15:10</td><td>Физкультура</td><td>Практика</td></tr>
+          <tr><td>Жұма</td><td>12:00–13:30</td><td>Дискретті математика</td><td>Лекция</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="links">
+      <h2>Пайдалы сілтемелер</h2>
+      <p>Университеттің ресми сайты:
+        <a href="https://satbayev.university/ru" target="_blank" rel="noopener noreferrer">Satbayev University</a>
+      </p>
+      <p>Веб-стандарттарды үйрену үшін:
+        <a href="https://developer.mozilla.org/kk/" target="_blank" rel="noopener noreferrer">MDN Web Docs</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Бейсебай Дамир · CSE8271 · СӨЖ №1 тапсырмасы</p>
+  </footer>
+</body>
+</html>
